@@ -1,5 +1,5 @@
 const elButton = document.querySelector(".menu__burger-button");
-const elMenu = document.querySelector(".menu");
+const elMenu = document.querySelector(".header__menu-mobile");
 
 
 elButton.addEventListener('click', () => {
