@@ -1,0 +1,42 @@
+.footer {
+  background-image: url("../../images/a_couple-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -180px;
+}
+
+.footer__inner {
+  width: 100%;
+  max-width: 490px;
+  padding: 165px 0;
+  margin-left: auto;
+}
+
+.footer__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.footer__info {
+  margin: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  line-height: 150%;
+  color: #FFFFFF;
+  border-left: 3px solid #FFFFFF;;
+}
+
+.footer__link {
+  display: inline-block;
+  padding: 12px 46px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+  background-color: #EA625C;
+  text-decoration: none;
+}

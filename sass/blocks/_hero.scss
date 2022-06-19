@@ -1,0 +1,80 @@
+.hero {
+  background-image: url("../../images/watch-bg.png");
+  background-repeat: no-repeat;
+  background-size: 587px 565px;
+  background-position: calc(50% + 540px) bottom;
+}
+
+.hero__inner {
+  padding-top: 140px;
+  padding-bottom: 185px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.hero__info {
+  margin: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  width: 100%;
+  max-width: 490px;
+  line-height: 150%;
+  color: #777777;
+  border-left: 3px solid #888888;
+}
+
+.hero__link {
+  display: inline-block;
+  padding: 12px 38px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #EA625C;
+  color: #fff;
+}
+
+
+@media only screen and (max-width:520px) {
+  .hero {
+    background-size: 450px 430px;
+    background-position: 100px top;
+  }
+
+  .hero__inner {
+    padding-top: 440px;
+    padding-bottom: 0;
+  }
+
+  .hero__title {
+    font-size: 46px;
+    line-height: 120%;
+  }
+
+}
+
+@media only screen and (max-width:465px) {
+  .hero {
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width:430px) {
+  .hero {
+    background-size: 392px 378px;
+  }
+}
+
+@media only screen and (max-width:340px) {
+  .hero__title {
+    font-size: 40px;
+  }
+}
